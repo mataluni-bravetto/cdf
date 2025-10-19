@@ -3,10 +3,11 @@ __pycache__/
 *$py.class
 *.so
 .Python
-*.cdf
-*.json.cdf
 .DS_Store
 .venv/
 venv/
 env/
 
+# Allow example CDF files
+!examples/*.cdf
+!examples/*.json.cdf
